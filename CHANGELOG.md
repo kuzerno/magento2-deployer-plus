@@ -11,24 +11,38 @@ and this project adheres to [Semantic Version](http://semver.org/spec/v2.0.0.htm
 
 ### Removed
 
+## [2.8.1] - 02-08-2021
+### Added
+* Add php.yml for Github Actions
+
+### Changed
+* Update deployer to version
+* Exclude pub/media only from the root
+
+### Removed
+* Remove .travis.yml
+
+## [2.8.0] - 04-05-2020
+### Missing changelog
+
 ## [2.7.1] - 16-04-2020
 ### Changed
-* fix task `files:permissions` to change to `magento_dir` folder before set permissions
+* Fix task `files:permissions` to change to `magento_dir` folder before set permissions
 
 ## [2.7.0] - 05-12-2019
 ### Added
-* task `cache:enable` to enable modules during deployment
+* Task `cache:enable` to enable modules during deployment
 
 ### Changed
 * Fixes wrong permissions after extracting archive
 
 ## [2.6.0] - 05-12-2019
 ### Changed
-* fix Grumphp Tests
+* Fix Grumphp Tests
 
 ## [2.5.0] - 13-03-2019
 ### Added
-* task `files:remove-generated` to delete generated folder content
+* Task `files:remove-generated` to delete generated folder content
 
 ## [2.4.0] - 25-02-2019
 ### Changed
