@@ -10,7 +10,7 @@ declare(strict_types=1);
 
 namespace Deployer;
 
-require 'recipe/common.php';
+require_once 'recipe/common.php';
 require __DIR__ . '/magento_2_1.php';
 require __DIR__ . '/magento_2_2/artifact.php';
 require __DIR__ . '/magento_2_2/maintenance.php';
